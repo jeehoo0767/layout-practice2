@@ -9,6 +9,30 @@ body{
     margin: 0 auto;
     padding: 20px;
 }
+.input-box-id:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-pw:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-pw-re:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-man:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-name:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-email:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-birth:focus-within{
+    border : 1px solid #00c850;
+}
+.input-box-phone:focus-within{
+    border : 1px solid #00c850;
+}
 #logo{
     width: 72.91%;
     font-family: 'Roboto', sans-serif;
@@ -70,6 +94,9 @@ background-color: white;
     height: 25px;
     line-height: 50px;
     margin-right: 40px;
+}
+.input-box-id:focus-within{
+    border : 1px solid #00c850;
 }
 #input-id .input-box-id span{
     color:rgb(156, 156, 156);
