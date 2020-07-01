@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url('http://odong.dothome.co.kr/200528/cssreset/reset.css');
+
+body{
+    background-color: #f5f6f7;
+}
+#wrap{
+    width: 100%; /*768px*/
+    margin: 0 auto;
+    padding: 20px;
+}
+#logo{
+    width: 72.91%;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px 30px 0px;
+}
+#logo a{
+    font-size: 70px;
+    text-decoration: none;
+    color:#00c850;
+}
+@media only screen and (max-width:765px){
+    #logo a{
+        font-size: 40px;
+        text-decoration: none;
+        color:#00c850;
+    }
+}
+
+div#main-container{
+    width: 72.91%;
+    margin: 0 auto;
+    text-align: center;
+}
+form{
+    width: 500px;
+    margin: 0 auto;
+}
+/* 아이디 인풋*/
+.input-box-id{
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-id{
+    margin-top: 50px;
+    display: inline;
+    width: 550px;
+}
+#input-id h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    font-size: 14px;
+}
+#input-id .input-box-id{
+width: 500px;
+height: 50px;
+padding: 10px;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+background-color: white;
+}
+#input-id input{
+    border: none;
+    display: inline;
+    width: 334px;
+    height: 25px;
+    line-height: 50px;
+    margin-right: 40px;
+}
+#input-id .input-box-id span{
+    color:rgb(156, 156, 156);
+} /* 아이디 인풋*/
+
+/*비밀번호 인풋*/
+.input-box-pw{
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-pw{
+    display: inline;
+    width: 550px;
+}
+#input-pw h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+    width: 500px;
+    font-size: 14px;
+}
+#input-pw .input-box-pw{
+width: 500px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+}
+#input-pw input{
+    border: none;
+    display: inline;
+    width: 440px;
+    height: 25px;
+    line-height: 50px;
+}
+#input-pw .input-box-pw span{
+    color:rgb(156, 156, 156);
+    position: absolute;
+    right: 20px;
+    top: 13px;
+}
+/*비밀번호 인풋*/
+
+/*비밀번호 재확인 인풋*/
+.input-box-pw-re{
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-pw-re{
+    display: inline;
+    width: 550px;
+}
+#input-pw-re h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#input-pw-re .input-box-pw-re{
+width: 500px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+background-color: white;
+}
+#input-pw-re input{
+    border: none;
+    display: inline;
+    width: 440px;
+    height: 25px;
+    line-height: 50px;
+}
+#input-pw-re .input-box-pw-re span{
+    color:rgb(156, 156, 156);
+    position: absolute;
+    right: 18px;
+    top: 13px;
+}
+/*비밀번호 재확인 인풋*/
+
+/*이름 인풋*/
+.input-box-name{
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-name{
+    display: inline;
+    width: 550px;
+}
+#input-name h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#input-name .input-box-name{
+width: 500px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+background-color: white;
+text-align: left;
+}
+#input-name input{
+    border: none;
+    display: inline;
+    width: 470px;
+    height: 25px;
+    line-height: 50px;
+}
+/*이름 인풋*/
+
+/*생년월일*/
+.input-box-birth{
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-birth{
+    display: inline;
+    width: 550px;
+}
+#input-birth h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#input-birth .input-box-birth{
+width:146px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+}
+#input-birth input{
+    border: none;
+    display: inline;
+    width: 116px;
+    height: 25px;
+}
+#input-birth .input-box-birth select{
+    border: none;
+    display: inline;
+    width: 116px;
+    height: 25px;
+}
+/* .birth-flex{
+    display: inline-block;
+    display:flex;
+    width: 500px;
+    justify-content: space-around;
+} */
+.birth-flex{
+    width: 500px;
+    display: inline-block;
+    display:flex;
+    justify-content: space-between;
+}
+/*생년월일*/
+
+/*성별*/
+.input-box-man{
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-man{
+    display: inline;
+    width: 550px;
+}
+#input-man h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#input-man .input-box-man{
+width: 500px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+}
+#input-man select{
+    border: none;
+    display: inline;
+    width: 470px;
+    height: 25px;
+    line-height: 50px;
+}
+/*성별*/
+
+/*이메일 인풋*/
+.input-box-email{
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-email{
+    display: inline;
+    width: 550px;
+}
+#input-email h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#input-email h3 span{
+    font-size: 14px;
+    font-weight: normal;    
+    color: #949494;
+}
+#input-email .input-box-email{
+width: 500px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+}
+#input-email input{
+    border: none;
+    display: inline;
+    width: 470px;
+    height: 25px;
+    line-height: 50px;
+}
+/*이메일 인풋*/
+
+/*휴대전화*/
+.input-box-phone{
+    background-color: white;
+    border: 1px solid rgb(207, 207, 207);
+}
+#input-phone{
+    display: inline;
+    width: 550px;
+}
+#input-phone h3{
+    margin: 5px 0;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+#input-phone .input-box-phone{
+width: 500px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+margin-top: 10px;
+}
+#input-phone .phone-flex-box .input-box-phone{
+width: 335px;
+height: 50px;
+padding: 10px;
+position: relative;
+box-sizing: border-box;
+display: inline-block;
+text-align: left;
+}
+.phone-flex-box{
+   display:flex;
+   justify-content: space-between;
+}
+#input-phone .input-box-phone input{
+    border: none;
+    display: inline;
+    width: 304px;
+    height: 25px;
+    line-height: 50px;
+    }
+.phone-flex-item{
+    box-sizing: border-box;
+    width: 115px;
+    height: 51px;
+    line-height: 51px;
+    margin-top: 10px;
+    background-color: #00c850;
+}
+.phone-flex-item a{
+    text-decoration: none;
+    color:white;
+}
+.number{
+    background-color: #f5f6f7;
+}
+#input-phone .input-box-phone:last-child{
+    background-color: #f5f6f7;
+}
+  
+
+#input-phone select{
+    border: none;
+    display: inline;
+    width: 470px;
+    height: 25px;
+    line-height: 50px;
+}
+#input-phone input{
+    border: none;
+    display: inline;
+    width: 304px;
+    height: 25px;
+    line-height: 50px;
+}
+/*휴대전화*/
+
+/*가입하기 버튼*/
+#join{
+    margin-top: 20px;
+    box-sizing: border-box;
+    width: 500px;
+    height: 51px;
+    padding: 17px 0 17px 0;
+    background-color: #00c850;
+}
+#join .join-button a{
+    text-decoration: none;
+    color:white;
+}
+/*가입하기 버튼*/
+
+/*footer*/
+#footer{
+    width: 72.91%;
+    margin: 0 auto;
+    margin-top: 40px;
+    text-align: center;
+}
+#footer ul{
+    text-align: center;
+    padding: 0;
+    list-style: none;
+}
+#footer ul li{
+    height: 15px;
+    line-height: 15px;
+    display: inline-block;
+    font-size: 14px;
+    color: #7c7b7b;
+}
+#footer ul li:nth-child(2){
+    color:#333333;
+    font-weight: bold;
+}
+#footer ul li:not(:first-child){
+    padding-left: 5px;
+    border-left:1px solid #7c7b7b;
+}
+#footer span{
+    font-size: 13px;
+    color : #7c7b7b;
+}
