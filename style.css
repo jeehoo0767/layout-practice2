@@ -415,6 +415,9 @@ text-align: left;
 .number{
     background-color: #f5f6f7;
 }
+#input-phone .input-box-phone:nth-child(1){
+    width: 350px;
+}
 #input-phone .input-box-phone:last-child{
     background-color: #f5f6f7;
 }
