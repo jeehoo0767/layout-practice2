@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 @import url('http://odong.dothome.co.kr/200528/cssreset/reset.css');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
 body{
     background-color: #f5f6f7;
 }
@@ -34,8 +34,8 @@ body{
     border : 1px solid #00c850;
 }
 #logo{
-    width: 72.91%;
-    font-family: 'Roboto', sans-serif;
+    width: 608px;
+    font-family: 'Poppins', sans-serif;
     margin: 0 auto;
     text-align: center;
     padding: 10px 0px 30px 0px;
@@ -54,7 +54,7 @@ body{
 }
 
 div#main-container{
-    width: 72.91%;
+    width: 608px;
     margin: 0 auto;
     text-align: center;
 }
@@ -256,6 +256,13 @@ text-align: left;
     display: inline;
     width: 116px;
     height: 25px;
+    -webkit-appearance: none; 
+    background-image: url(images/downArrow_01.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+#input-birth .input-box-birth select::-ms-expand{
+    display: none;
 }
 /* .birth-flex{
     display: inline-block;
@@ -446,7 +453,7 @@ text-align: left;
 
 /*footer*/
 #footer{
-    width: 72.91%;
+    width: 608px;
     margin: 0 auto;
     margin-top: 40px;
     text-align: center;
